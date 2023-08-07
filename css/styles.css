@@ -315,6 +315,19 @@ ul {
 
 /************************ Responsiveness ************************/
 
+/* Style for small screens */
+@media (max-width:512px) {
+
+  .carousel-h1{
+    padding: 15% 10% 0;
+  }
+
+  .carousel-h5{
+    display: none;
+  }
+  
+}
+
 /* Style for medium screens */
 @media (max-width:1024px) {
 
